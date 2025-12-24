@@ -23,7 +23,7 @@ urls = {repository = "https://github.com/patrick-kidger/wadler_lindig"}
 version = "0.1.6"
 
 [project.optional-dependencies]
-dev = ["numpy", "pre-commit", "pytest"]
+dev = ["mypy", "numpy", "pre-commit", "pytest"]
 docs = [
   "hippogriffe==0.1.0",
   "mkdocs==1.6.1",
